@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F3F1EC">
+<title>Qomat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1.3.39">
+<script src="config.js?v=1.3.39"></script>
+</head>
+<body>
+<main id="screen"></main>
+
+<button id="fab" class="fab" aria-label="Qo'shish">
+  <svg viewBox="0 0 24 24" width="28" height="28"><path d="M12 5v14M5 12h14" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>
+</button>
+
+<nav class="tabs">
+  <button data-tab="chat"><i class="ico" data-i="chat"></i><span>Chat</span></button>
+  <button data-tab="kundalik"><i class="ico" data-i="heart"></i><span>Kundalik</span></button>
+  <button data-tab="tarix"><i class="ico" data-i="chart"></i><span>Tarix</span></button>
+  <button data-tab="profil"><i class="ico" data-i="user"></i><span>Profil</span></button>
+</nav>
+
+<div id="sheetWrap" class="sheet-wrap">
+  <div class="sheet-bg"></div>
+  <div class="sheet"><div class="grip"></div><div id="sheetBody"></div></div>
+</div>
+<div id="toast" class="toast"></div>
+<input id="fileCam" type="file" accept="image/*" capture="environment" hidden>
+<input id="fileGal" type="file" accept="image/*" hidden>
+
+<script src="foods.js"></script>
+<script src="nima.js"></script>
+<script src="app.js?v=1.3.39"></script>
+</body>
+</html>
